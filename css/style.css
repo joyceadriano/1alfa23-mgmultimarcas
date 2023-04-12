@@ -45,7 +45,6 @@ a{
     width: 30%;
     padding: 1.5%;
     font-size: 20px;
-    text-align: center;
     line-height: 25px;
     color: #474747;
 }
@@ -73,15 +72,15 @@ border-radius: 10px;
 .botao {
     margin-top: 30px;
 }
-.produtos{
+.produtos,.depoimentos{
     text-align: center;
     margin: 50px 0;
 }
-.produtos .titulo{
+ .titulo{
     font-size:45px;
     font-weight:bold;
 }
-.produtos .subtitulo{
+.subtitulo{
     font-size:30px;
     font-weight:bold;
     color:#0a0909;
@@ -100,4 +99,72 @@ border-radius: 10px;
 a:hover{
     transition: 0.3s;
     opacity: 0.8;
+}
+footer{
+    background-color: #474747;
+}
+footer .item{
+    color: #fff;
+}
+.depoimentos .item{ 
+    border: 1px solid #474747;
+    width: calc(30% - 2px);
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 50px;
+}
+.depoimentos .cliente{
+    margin-bottom: -100px;
+    padding-top: 10px;
+}
+.depoimento .cliente .nome{
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.contato input, .contato textarea{
+    border-bottom: 2px solid #fff;
+    height: 35px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    max-width: 250px;
+}
+textarea {
+    height: 50px;
+    max-width: 200px;
+}
+.contato button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    font-size: 15px;
+    display: block;
+    border-radius: 25px;
+}
+.item.contato{
+    line-height: 30px;
+}
+.contato h3{
+    margin-bottom: 20px;
+}
+.contato p{
+    line-height: 45px;
+}
+footer a{
+    color: #fff;
+}
+footer .social li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 50px;
+}
+footer .menu li{
+    line-height: 35px;
+}
+.content{
+    font-size: 20px;
+    line-height: 25px;
+    padding: 50px;
 }
