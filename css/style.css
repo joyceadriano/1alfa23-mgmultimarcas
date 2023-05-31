@@ -1,128 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
     background-color: #f4f4f4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-section{
+
+section {
     width: 1200px;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
-#header{
-    padding-top: 50px;
+
+#header {
+    padding: 50px;
 }
-#header div{
+
+#header div {
     display: inline-block;
 }
-#header .contato{
+
+#header .contato {
     float: right;
 }
-nav.menu{
+
+nav.menu {
     background-color: #ffda1f;
     text-align: center;
 }
-nav.menu ul li{
+
+nav.menu ul li {
     display: inline-block;
     padding: 18px 90px;
-    font-size:17px;
+    font-size: 17px;
 }
-nav.menu ul li a{
-    color: #030303;
+
+nav.menu ul li a {
+    color: #000;
 }
-a{
-    text-decoration: nome;
+
+a {
+    text-decoration: none;
 }
-.banner img{
+
+.banner img {
     width: 100%;
 }
+
 .marcas ul li {
     display: inline-block;
     font-size: 35px;
     width: 16%;
     padding: 50px;
 }
+
 .item {
     display: inline-block;
     width: 30%;
     padding: 1.5%;
     font-size: 20px;
+    /*    text-align: center;*/
     line-height: 25px;
     color: #474747;
 }
+
 .item img {
     width: 100%;
 }
+
 .item .title {
     font-size: 23px;
     font-weight: bold;
 }
+
 .financiamento {
-    background: #ffe114;
+    background: #ffda1f;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     padding: 50px;
     line-height: 40px;
 }
+
 .botao a {
-background: #0a0909;
-color: #f4f4f4;
-padding: 10px 30px;
-border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
 }
+
 .botao {
     margin-top: 30px;
 }
-.produtos,.depoimentos{
+
+.produtos,
+.depoimentos {
     text-align: center;
     margin: 50px 0;
 }
- .titulo{
-    font-size:45px;
-    font-weight:bold;
-}
-.subtitulo{
-    font-size:30px;
-    font-weight:bold;
-    color:#0a0909;
-    margin-bottom: 30px;
 
+.titulo {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
     margin-top: 15px;
 }
-.sublinhado{
+
+.sublinhado {
     width: 150px;
-    background: #ffe114;
+    background: #ffda1f;
     height: 10px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-a:hover{
+
+a:hover {
     transition: 0.3s;
     opacity: 0.8;
 }
-footer{
+
+footer {
     background-color: #474747;
 }
-footer .item{
+
+footer .item {
     color: #fff;
 }
-.depoimentos .item{ 
+
+.depoimentos .item {
     border: 1px solid #474747;
     width: calc(30% - 2px);
 }
-.depoimentos img{
+
+.depoimentos img {
     width: 100px;
     border-radius: 50px;
 }
-.depoimentos .cliente{
+
+.depoimentos .cliente {
     margin-bottom: -100px;
     padding-top: 10px;
 }
-.depoimento .cliente .nome{
-    font-weight:bold;
+
+.depoimentos .cliente .nome {
+    font-weight: bold;
     text-transform: uppercase;
 }
-.contato input, .contato textarea{
+
+.contato input,
+.contato textarea {
     border-bottom: 2px solid #fff;
     height: 35px;
     padding: 5px;
@@ -130,10 +159,12 @@ footer .item{
     font-size: 20px;
     max-width: 250px;
 }
-textarea {
+
+.contato textarea {
     height: 50px;
-    /* max-width: 200px; */
+    max-width: 250px;
 }
+
 .contato button {
     background: transparent;
     color: #fff;
@@ -143,41 +174,51 @@ textarea {
     display: block;
     border-radius: 25px;
 }
-.item.contato{
+
+.item.contato {
     line-height: 30px;
 }
-.contato h3{
+
+.contato h3 {
     margin-bottom: 20px;
 }
-.contato p{
+
+.contato p {
     line-height: 45px;
 }
-footer a{
+
+footer a {
     color: #fff;
 }
-footer .social li{
+
+footer .social li {
     display: inline-block;
     padding: 20px;
     font-size: 50px;
 }
-footer .menu li{
+
+footer .menu li {
     line-height: 35px;
 }
-.content{
+
+.content {
     font-size: 20px;
     line-height: 25px;
     padding: 50px;
 }
+
 .div-50 {
     width: 49%;
     display: inline-block;
     vertical-align: top;
 }
+
 .faleconosco h3 {
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+
 .faleconosco input, .faleconosco select, .faleconosco textarea {
     background: #d2d2d2;
     width: 250px;
@@ -188,23 +229,100 @@ input[type=radio] {
     float: left;
     margin: 5px 0;
 }
-.faleconosco ul li{
+.faleconosco ul li {
     display: inline-block;
     background-color: #d2d2d2;
     padding: 10px;
 }
-.campo{
+.campo {
     margin: 10px 0;
 }
+
 .faleconosco textarea{
     width: 500px;
 }
+
+.sobre p{
+    text-align: justify;
+    width: 95%;
+}
+
 .clear{
     clear: both;
 }
-/*SCREEN 480 */
-@media (max-width: 480px){
-  .contato{
+.dropdown{
+    display: none;
+}
+/*SCREEN 480PX */
+@media (max-width: 1200px){
+    .dropdown{
+        display: block;
+        text-align: center;
+        background: #ffda1f;
+    }
+    #header{
         display: none!important;
+    }
+    .none,nav.menu,#logotipo{
+        display: none;
+    }
+
+   
+    section{
+        width: 100%;
+    }
+   
+
+    
+    #header{
+        padding: 20px;
+    }
+    .dropdown-content{
+        display: none;
+
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown a{
+        color: #000;
+        line-height: 30px;
+    }
+    .dropdown img{
+        margin-top: 20px;
+
+    }
+
+    .dropdown i{
+        font-size: 35px
+    }
+    .marcas ul li{
+        width: 25%;
+    }
+    .item{
+        width: 97%;
+    }
+    .botao a{
+        font-size: 14px;
+    }
+    .depoimentos .item{
+        width: 60%;
+        max-width: 280px;
+    }
+}
+@media (max-width: 767px) and (min-width:481px){
+    .marcas ul li{
+        width: 30%;
+    }
+    .item{
+        width: 30%;
+    }
+    footer .item{
+        width: 60%;
+    }
+}
+@media (max-width: 480px){
+    .content{
+        width: calc(100% - 40px);
     }
 }
